@@ -1,0 +1,34 @@
+{
+    "applications": {
+        "gecko": {
+            "id": "{57c31439-753e-4fee-948e-1c8a60f81c50}"
+        }
+    },
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "description": "Adds a refresh button in the URL bar",
+    "homepage_url": "https://github.com/andreicristianpetcu/refresh_in_url_bar",
+    "icons": {
+        "128": "images/icon-128.png",
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "96": "images/icon-96.png"
+    },
+    "manifest_version": 2,
+    "name": "Refresh in URL bar",
+    "page_action": {
+        "default_icon": "images/icon.svg"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "contextMenus",
+        "*://translate.google.com/*",
+        "*://www.gstatic.com/images/branding/*",
+        "*://www.google.com/images/*"
+    ],
+    "version": "1.0.0"
+}
