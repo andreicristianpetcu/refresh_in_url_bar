@@ -6,13 +6,10 @@ browser.pageAction.onClicked.addListener(function(){
   });
 });
 
-browser.tabs.onUpdated.addListener((id, changeInfo, tabInfo) => {
-    browser.pageAction.show(tabInfo.id);
+browser.tabs.onCreated.addListener((tab) => {
+  browser.pageAction.show(tab.id);
 });
 
 browser.tabs.query({}).then((tabs) => {
-  var tab;
-  for (tab of tabs) {
-    browser.pageAction.show(tab.id);
-  }
+  tabs.forEach((tab) => browser.pageAction.show(tab.id));
 });
