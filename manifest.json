@@ -12,15 +12,17 @@
     "description": "Adds a refresh button in the URL bar",
     "homepage_url": "https://github.com/andreicristianpetcu/refresh_in_url_bar",
     "icons": {
-        "128": "images/icon-128.png",
-        "16": "images/icon-16.png",
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png"
+        "16": "icon.svg",
+        "19": "icon.svg",
+        "38": "icon.svg",
+        "48": "icon.svg",
+        "96": "icon.svg",
+        "128": "icon.svg"
     },
     "manifest_version": 2,
     "name": "Refresh in URL bar",
     "page_action": {
-        "default_icon": "images/icon.svg"
+        "default_icon": "icon.svg"
     },
     "permissions": [
         "tabs",
