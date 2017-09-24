@@ -9,7 +9,7 @@
             "scripts/background.js"
         ]
     },
-    "description": "Adds a refresh button in the URL bar.",
+    "description": "Adds a refresh button in the URL bar. Icon is CC-BY-SA 4.0 by Twitter user trumpikas.",
     "homepage_url": "https://github.com/andreicristianpetcu/refresh_in_url_bar",
     "icons": {
         "128": "images/icon-128.png",
@@ -20,15 +20,7 @@
     "manifest_version": 2,
     "name": "Australis-like refresh in URL bar",
     "page_action": {
-        "default_icon": "images/icon.svg"
+        "default_icon": "images/icon-128.png"
     },
-    "permissions": [
-        "tabs",
-        "activeTab",
-        "contextMenus",
-        "*://translate.google.com/*",
-        "*://www.gstatic.com/images/branding/*",
-        "*://www.google.com/images/*"
-    ],
-    "version": "1.0.1"
+    "version": "1.0.2"
 }

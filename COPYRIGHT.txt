@@ -1,4 +1,3 @@
-This addon is under the GPLv0 license.
+This addon is under the GPLv0 license © Andrei Cristian Petcu.
 
-The logo is built on top of this image unde CC BY 3.0 license built by icon 54.
-https://thenounproject.com/search/?q=translate&i=532871
+The icon is CC-BY-SA 4.0 by Twitter user trumpikas.

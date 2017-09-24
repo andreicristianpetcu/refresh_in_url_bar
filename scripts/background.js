@@ -16,4 +16,3 @@ browser.tabs.query({}).then((tabs) => {
     browser.pageAction.show(tab.id);
   }
 });
-
