@@ -1,4 +1,4 @@
 This addon is under the GPLv0 license © Andrei Cristian Petcu.
 
-Icons designed by Lucy G from Flaticon
-https://www.flaticon.com/packs/free-basic-ui-elements
+Icons by Mozilla
+http://design.firefox.com/icons/viewer/

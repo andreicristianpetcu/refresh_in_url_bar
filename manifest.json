@@ -27,5 +27,5 @@
         "default_icon": "images/refresh.svg"
     },
     "permissions": ["activeTab"],
-    "version": "1.0.4"
+    "version": "1.0.3"
 }
