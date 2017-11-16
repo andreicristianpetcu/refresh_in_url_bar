@@ -16,9 +16,12 @@ function reloadTab(tab) {
 browser.tabs.onUpdated.addListener((id, changeInfo, tabInfo) => {
     if (tabInfo.status === 'complete') {
       browser.pageAction.setIcon({tabId: id, path: "images/refresh.svg"});
+      browser.pageAction.setTitle({tabId: id, title: "Reload current page (Ctrl+R)"});
     }
     else {
       browser.pageAction.setIcon({tabId: id, path: "images/cancel.svg"});
+      browser.pageAction.setTitle({tabId: id, title: "Stop page load"});
+      
     }
     browser.pageAction.show(tabInfo.id);
 });
@@ -27,6 +30,7 @@ browser.tabs.onUpdated.addListener((id, changeInfo, tabInfo) => {
 browser.tabs.query({}).then((tabs) => {
   var tab;
   for (tab of tabs) {
+  	browser.pageAction.setTitle({tabId: tab.id, title: "Reload current page (Ctrl+R)"});
     browser.pageAction.show(tab.id);
   }
 });
